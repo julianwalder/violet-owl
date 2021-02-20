@@ -568,14 +568,14 @@
 
   &.bg-accent {
     background: $color-primary;
-    background: -webkit-gradient(linear, left top, right top, from($color-primary), to($color-secondary));
-    background: linear-gradient(to right,$color-primary, $color-secondary);
+    background: -webkit-gradient(linear, 66deg, from($color-primary), to($color-secondary));
+    background: linear-gradient(66deg,$color-primary, $color-secondary);
     color: #fff;
 
     a {
       &:not(.button) {
         color: #fff;
-  
+
         &:hover {
           color: #fff;
           opacity: 0.8;
@@ -608,7 +608,7 @@
       background: #fff;
       border-color: #fff;
       color: $color-primary;
-  
+
       &.secondary {
         background: transparent;
         color: #fff;

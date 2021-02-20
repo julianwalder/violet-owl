@@ -31,7 +31,8 @@
 // CSS icons
 .icon-menu,
 .icon-close {
-  background: currentColor;
+//  background: currentColor;
+  background: white;
   border-radius: 1px;
   color: inherit;
   height: 2px;
@@ -44,7 +45,8 @@
 
   &:before,
   &:after {
-    background: currentColor;
+    //  background: currentColor;
+    background: white;
     border-radius: 1px;
     content: "";
     height: 100%;

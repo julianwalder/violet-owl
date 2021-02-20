@@ -16,7 +16,7 @@
             },
             {
                 "type": "action",
-                "label": "Features",
+                "label": "About me",
                 "url": "/features",
                 "style": "link"
             },
