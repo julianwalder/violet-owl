@@ -60,9 +60,9 @@ models:
         label: Font
         options:
           - fira-sans
-          - nunito-sans
+          - montserrat
           - system-sans
-        default: nunito-sans
+        default: montserrat
         required: true
       - type: model
         name: header

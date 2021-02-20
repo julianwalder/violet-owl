@@ -9,7 +9,7 @@ import Footer from './Footer';
 
 export default class Body extends React.Component {
     render() {
-        let font = _.get(this.props, 'pageContext.site.siteMetadata.base_font', null) || 'nunito-sans';
+        let font = _.get(this.props, 'pageContext.site.siteMetadata.base_font', null) || 'montserrat';
         return (
             <React.Fragment>
                 <Helmet>
@@ -33,15 +33,15 @@ export default class Body extends React.Component {
                                   <meta key={meta_idx} {...(attribute(key_name, _.get(meta, 'name', null)))} content={full_url}/>
                                 );
                             })())
-                          ) : 
+                          ) :
                             <meta key={meta_idx + '.1'} {...(attribute(key_name, _.get(meta, 'name', null)))} content={_.get(meta, 'value', null)}/>
                         )
                     })}
                     {(font !== 'system-sans') && (
                     <link rel="preconnect" href="https://fonts.gstatic.com"/>
                     )}
-                    {(font === 'nunito-sans') ? (
-                    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet"/>
+                    {(font === 'montserrat') ? (
+                    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,400;0,700;0,800;1,100;1,400;1,700;1,800&display=swap" rel="stylesheet"/>
                     ) : ((font === 'fira-sans') && (
                     <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,400;0,600;1,400;1,600&display=swap" rel="stylesheet"/>
                     ))}

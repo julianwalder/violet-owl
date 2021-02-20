@@ -44,10 +44,10 @@ collections:
             name: base_font
             label: Font
             required: true
-            default: nunito-sans
+            default: montserrat
             options:
               - fira-sans
-              - nunito-sans
+              - montserrat
               - system-sans
           - widget: object
             name: header
