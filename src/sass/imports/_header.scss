@@ -74,10 +74,10 @@
 
     a:not(.button) {
   //    color: inherit;
-      color: white;
+      color: $gray-500;
 
       &:hover {
-        color: $gray-500;
+        color: #009dd7;
       }
     }
   }

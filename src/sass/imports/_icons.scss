@@ -32,7 +32,7 @@
 .icon-menu,
 .icon-close {
 //  background: currentColor;
-  background: white;
+  background: $gray-500;
   border-radius: 1px;
   color: inherit;
   height: 2px;
@@ -46,7 +46,7 @@
   &:before,
   &:after {
     //  background: currentColor;
-    background: white;
+    background: $gray-500;
     border-radius: 1px;
     content: "";
     height: 100%;
