@@ -22,8 +22,8 @@
             },
             {
                 "type": "action",
-                "label": "Pricing",
-                "url": "/pricing",
+                "label": "Systemic Therapy",
+                "url": "/business",
                 "style": "link"
             },
             {
