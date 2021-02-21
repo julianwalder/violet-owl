@@ -17,7 +17,7 @@
             {
                 "type": "action",
                 "label": "About me",
-                "url": "/ab",
+                "url": "/about_me",
                 "style": "link"
             },
             {
