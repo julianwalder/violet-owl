@@ -4,6 +4,15 @@ module.exports = {
     pathPrefix: '/',
     siteMetadata: siteMetadata,
     plugins: [
+        `gatsby-plugin-sharp`,
+        {
+          resolve: `gatsby-source-filesystem`,
+          options: {
+            name: `images`,
+            path: `${__dirname}/static/images/`,
+        },
+    },
+        `gatsby-transformer-sharp`,
         `gatsby-plugin-react-helmet`,
         `gatsby-source-data`,
         `gatsby-transformer-remark`,
