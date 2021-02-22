@@ -4,7 +4,7 @@ subtitle: >-
   This is an optional subtitle. It can be used to describe what this page is
   about.
 image: images/about.jpg
-image_alt: Team members in a conference room
+image_alt: Team members in a conference room2
 seo:
   type: stackbit_page_meta
   title: About Us
