@@ -63,21 +63,21 @@
 #masthead {
   .site-branding {
     a {
-      color: inherit;
+      color: white;
     }
   }
 
   .site-navigation {
     .current-menu-item {
-      color: $gray-500;
+      color: #009dd7;
     }
 
     a:not(.button) {
-  //    color: inherit;
-      color: white;
+      color: inherit;
+      @media only screen and (max-width: 800px){color: white}
 
       &:hover {
-        color: $gray-500;
+        color: #009dd7;
       }
     }
   }
@@ -144,6 +144,7 @@
       z-index: 998;
     }
   }
+
 
   .menu-toggle {
     background: 0;
